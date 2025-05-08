@@ -21,10 +21,11 @@ for i, energy in enumerate(monthly_energy):
 months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
           'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
-plt.bar(months, monthly_energy)
+plt.bar(months, monthly_energy, color='skyblue')
 plt.title('Estimated Solar Energy Production (Monthly)')
 plt.xlabel('Month')
 plt.ylabel('Energy (kWh)')
+plt.tight_layout()
 plt.savefig('solar_energy_chart.png')
 print("Chart saved as 'solar_energy_chart.png'")
 plt.show()
