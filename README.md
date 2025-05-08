@@ -27,5 +27,3 @@ This Python project calculates the estimated solar energy output per month based
 
 A bar chart will be saved as `solar_energy_chart.png` after running the script.
 
-## Why This Project?
-This project demonstrates the application of Python for solving real-world energy problems, useful for technical interviews showcasing coding + domain knowledge.
